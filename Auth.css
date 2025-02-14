@@ -1,0 +1,60 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0d1117;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: #161b22;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+h2 {
+    color: #58a6ff;
+}
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+}
+input {
+    background: #0d1117;
+    color: white;
+    border: 1px solid #30363d;
+}
+button {
+    background: #238636;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background: #2ea043;
+}
+a {
+    color: #58a6ff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.seed-container {
+    background: #21262d;
+    padding: 10px;
+    border-radius: 5px;
+}
+.seed-word {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    background: #30363d;
+    border-radius: 5px;
+}
